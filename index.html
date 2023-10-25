@@ -503,7 +503,9 @@
             <div id="input">
                 <h5 id="newslerner">Se inscreva na Newsletter</h5>
                 <div id="tamanho">
-                    <input type="text" placeholder="seunome@email.com" id="jonas">
+                    <form action="/subscribe" method="POST">
+                        <input type="text" placeholder="seunome@email.com" id="jonas" required>
+                    </form>
                     <button>Enviar</button>
                 </div>
             </div>
