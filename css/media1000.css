@@ -1,0 +1,159 @@
+@media (max-width: 999px) and (min-width:900px) {
+    body {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    nav {
+        height: 5em;
+        width: 100%;
+        position: fixed;
+        padding-top: 1em ;
+        padding-bottom: 1em;
+        padding-right: 7em;
+        padding-left: 7em;
+        z-index: 100;
+        transition: .5s;
+    }
+    
+    .nav>.nav-header {
+        display: inline;
+    }
+    
+    .nav>.nav-header>.nav-title {
+        display: inline-block;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .nav>.nav-btn {
+        display: none;
+    }
+    
+    .nav>.nav-links {
+        display: inline;
+        float: right;
+        font-size: 20px;
+    }
+    
+    .nav>.nav-links>a {
+        display: inline-block;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+    
+    .nav>#nav-check {
+        display: none;
+    }
+
+    .progresso {
+        position: fixed;
+        top: 5em;
+        z-index: 100;
+        width: 100%;
+    }
+
+    .barraprogresso {
+        height: 5px;
+        background: #004aac;
+    }
+
+    #coracaoquegira {
+        margin-left: 2em;
+    }
+
+    #parte1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto1 {
+        margin: 0;
+        padding-top: 1em;
+    }
+
+    #img1 {
+        height: 20em;
+        width: 20em;
+    }
+
+    #desvantagens {
+        margin-top: 20em;
+    }
+
+    #imgrespiro {
+        margin-top: 50em;
+    }
+
+    .textoeimagemaplicacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aplicacao {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #img2 {
+        display: none;
+    }
+
+    #aplicacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav>.nav-links {
+        font-size: 20px;
+    }
+
+    .textoaplicacao {
+        width: 100%;
+    }
+
+    #titulo3{
+        margin-top: 4.2em;
+    }
+
+    .textoeimagemaplicacao {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3em;
+    }
+
+    .imagemaplicacao {
+        margin-top: 2em;
+        display: flex;
+    }
+
+    #citacao {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .container {
+        display: none
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    #onda {
+        margin-top: 2em;
+    }
+
+    #newslerner {
+        text-align: center;
+    }
+
+}

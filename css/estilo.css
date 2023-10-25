@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-img * {
+img  {
     border-radius: 5px;
 }
 
@@ -73,8 +73,6 @@ nav {
 .nav>#nav-check {
     display: none;
 }
-
-
 
 header {
     width: 100%;
@@ -144,6 +142,7 @@ article {
 #img1 {
     height: 19em;
     margin-top:2.5em;
+    box-shadow: rgb(130, 122, 122) 0px 4px 12px;
 }
 
 h2 {
@@ -162,7 +161,7 @@ h2 {
     top: 5em;
     z-index: 100;
     width: 100%;
-  }
+}
 
 .barraprogresso {
     height: 5px;
@@ -173,7 +172,8 @@ h2 {
     background-image: linear-gradient(to right top, #6f9bdc, #6284cb, #576dba, #5056a6, #4b3e92);
     height: 90vh;
     width: 100vw;
-    margin-top:6em;   
+    margin-top:6em;
+    box-shadow: rgb(97, 94, 94) 0px 7px 29px 0px;
 }
 
 #impressora {
@@ -466,6 +466,20 @@ h2 {
     margin-bottom: 1.5em;
 }
 
+.reveal{
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+
+  
+.reveal.active{
+    top: 0;
+    opacity: 1;
+}
+
 .outros {
     font-size: 1.1em;
 }
@@ -475,16 +489,25 @@ h2 {
     justify-content: space-between;
 }
 
+.clara .topEmbed {
+    display: none;
+}
+
 .imagemaplicacao {
     width: 15em;
     height: 15em;
     margin-top: -2em;
+    box-shadow: rgb(130, 122, 122) 0px 4px 12px;
 }
 
-#imgss {
+#imgss{
     display: flex;
     flex-direction: column;
     gap: 3em;
+}
+
+#imgss > * {
+    box-shadow: rgb(130, 122, 122) 0px 4px 12px;
 }
 
 .textoaplicacao {
@@ -600,7 +623,7 @@ h2 {
 footer {
     background-color: #0099FF;
     width: 100%;
-    height: 30vh;
+    height: 35vh;
 }
 
 button {
