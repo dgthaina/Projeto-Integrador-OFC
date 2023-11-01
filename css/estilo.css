@@ -657,6 +657,11 @@ input::placeholder {
     transition: 0.5s;
 }
 
+#impressoratitulo {
+    color: white;
+    margin-bottom: 15px;
+}
+
 .fotos:hover{
     padding: 20px;
     box-shadow:
