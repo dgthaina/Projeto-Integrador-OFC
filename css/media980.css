@@ -57,7 +57,7 @@
         margin-top: 0.3em;
     }
 
-    #parte1{
+    #parte1 {
         display: flex;
         flex-direction: column;
     }
@@ -82,7 +82,8 @@
     #desvantagens {
         margin-top: 30em;
     }
-    #titulo3{
+
+    #titulo3 {
         margin-top: 4.2em;
     }
 
@@ -130,15 +131,16 @@
         margin-bottom: 1em;
     }
 
-    #imghidrogeis{
+    #imghidrogeis {
         width: 109%;
     }
 
     #textosdev {
         margin-right: 1.2em;
     }
-    
-    .container, .container2 {
+
+    .container,
+    .container2 {
         margin-left: -0.2em;
     }
 
@@ -147,7 +149,7 @@
         border-radius: 5px;
     }
 
-    #onda{
+    #onda {
         margin-top: -15em;
     }
 

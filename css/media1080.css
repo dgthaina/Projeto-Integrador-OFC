@@ -146,7 +146,8 @@
         margin-bottom: 1.3em;
     }
 
-    .container, .container2 {
+    .container,
+    .container2 {
         margin-left: -0.2em;
     }
 

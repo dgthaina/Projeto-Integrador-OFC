@@ -57,7 +57,7 @@
         margin-top: 0.3em;
     }
 
-    #parte1{
+    #parte1 {
         display: flex;
         flex-direction: column;
     }
@@ -74,7 +74,8 @@
         width: 100%;
     }
 
-    .container, .container2 {
+    .container,
+    .container2 {
         margin-left: -2em;
     }
 
@@ -90,6 +91,7 @@
         width: 9em;
         border-radius: 5px;
     }
+
     #textosdev {
         margin-right: 3em;
     }
@@ -102,12 +104,15 @@
         margin-top: 30em;
     }
 
-    #imagemetexto1, #imagemetexto2, #imagemetexto3 {
+    #imagemetexto1,
+    #imagemetexto2,
+    #imagemetexto3 {
         display: flex;
         flex-direction: column;
     }
-    
-    .texto, #texto {
+
+    .texto,
+    #texto {
         margin: 0;
     }
 
@@ -115,7 +120,7 @@
         display: none;
     }
 
-    #titulo3{
+    #titulo3 {
         margin-top: 4.2em;
     }
 
@@ -140,6 +145,7 @@
     #texto1pol {
         margin-bottom: 1.2em;
     }
+
     #texto2pol {
         margin-bottom: 1.2em;
     }
@@ -162,13 +168,14 @@
         margin-bottom: 1.3em;
     }
 
-    #titulo3{
+    #titulo3 {
         margin-top: 7em;
     }
 
     .espacamentotitulo {
         font-size: 1em;
     }
+
     #img2 {
         display: none;
     }
@@ -179,7 +186,7 @@
         margin-top: 10em;
     }
 
-    #imghidrogeis{
+    #imghidrogeis {
         width: 100%;
         height: 20em;
     }
@@ -223,14 +230,14 @@
     }
 
     button {
-        background-color: rgb(74, 211, 74);     
+        background-color: rgb(74, 211, 74);
         font-size: 1em;
         color: white;
     }
 
     footer {
-        background: rgb(0,110,183);
-        background: linear-gradient(0deg, rgba(0,110,183,1) 0%, rgba(0,135,225,1) 50%, rgba(0,153,255,1) 100%);
+        background: rgb(0, 110, 183);
+        background: linear-gradient(0deg, rgba(0, 110, 183, 1) 0%, rgba(0, 135, 225, 1) 50%, rgba(0, 153, 255, 1) 100%);
         height: 70vh;
     }
 
@@ -247,7 +254,7 @@
         width: 10em;
     }
 
-    #logoif{
+    #logoif {
         width: 15em;
     }
 
@@ -262,7 +269,7 @@
     #email {
         width: 5em;
         height: 5em;
-        background-color: rgb(74, 211, 74);    
+        background-color: rgb(74, 211, 74);
     }
 
     #simbolo {

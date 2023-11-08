@@ -3,6 +3,7 @@
         box-sizing: border-box;
         margin: 0;
     }
+
     .nav>.nav-btn {
         display: inline-block;
         position: absolute;
@@ -50,7 +51,7 @@
         height: calc(36vh - 0px);
         overflow-y: auto;
     }
-    
+
     .nav-title {
         margin-top: 0.3em;
     }
@@ -129,7 +130,7 @@
         width: 100%;
     }
 
-    #titulo3{
+    #titulo3 {
         margin-top: 4.2em;
     }
 
@@ -152,7 +153,8 @@
         margin-right: 2em;
     }
 
-    .container, .container2 {
+    .container,
+    .container2 {
         margin-left: -0.2em;
     }
 

@@ -51,7 +51,7 @@
         height: calc(40vh - 0px);
         overflow-y: auto;
     }
-    
+
     .nav-title {
         margin-top: 0.3em;
     }
@@ -76,12 +76,12 @@
         margin-top: -7em;
     }
 
-    #texto1{
+    #texto1 {
         margin: 0;
         margin-top: 1em;
-    }   
+    }
 
-    #containertexto{
+    #containertexto {
         display: flex;
         flex-direction: column;
     }
@@ -90,25 +90,25 @@
         width: 100%;
     }
 
-    #containertexto2{
+    #containertexto2 {
         width: 100%;
     }
 
-    #desvantagens{
+    #desvantagens {
         margin-top: 20em;
     }
 
-    #imagemetexto1{
+    #imagemetexto1 {
         display: flex;
         flex-direction: column;
     }
 
-    #imagemetexto2{
+    #imagemetexto2 {
         display: flex;
         flex-direction: column;
     }
 
-    #imagemetexto3{
+    #imagemetexto3 {
         display: flex;
         flex-direction: column;
     }
@@ -135,7 +135,7 @@
         flex-direction: column;
     }
 
-    
+
     #logonav {
         margin-top: -1.5em;
         width: 120px;
@@ -163,7 +163,7 @@
         text-align: center;
     }
 
-    #imagem2{
+    #imagem2 {
         display: none;
     }
 
@@ -198,7 +198,7 @@
         flex-direction: column;
     }
 
-    .imagemetextopolimeros{
+    .imagemetextopolimeros {
         width: 100%;
         margin-top: 5em;
     }
@@ -238,6 +238,7 @@
         height: 384px;
         margin-top: 5em;
     }
+
     .nome {
         background-color: #1755a5;
         color: #fff;
@@ -282,14 +283,14 @@
     }
 
     button {
-        background-color: rgb(74, 211, 74);     
+        background-color: rgb(74, 211, 74);
         font-size: 1.5em;
         color: white;
     }
 
     footer {
-        background: rgb(0,110,183);
-        background: linear-gradient(0deg, rgba(0,110,183,1) 0%, rgba(0,135,225,1) 50%, rgba(0,153,255,1) 100%);
+        background: rgb(0, 110, 183);
+        background: linear-gradient(0deg, rgba(0, 110, 183, 1) 0%, rgba(0, 135, 225, 1) 50%, rgba(0, 153, 255, 1) 100%);
         height: 70vh;
     }
 
@@ -306,7 +307,7 @@
         width: 10em;
     }
 
-    #logoif{
+    #logoif {
         width: 15em;
     }
 
@@ -321,12 +322,12 @@
     #email {
         width: 5em;
         height: 5em;
-        background-color: rgb(74, 211, 74);    
+        background-color: rgb(74, 211, 74);
     }
 
     #simbolo {
         margin-top: 0.1em;
         font-size: 3em;
     }
-    
+
 }

@@ -1,7 +1,20 @@
-@media (max-width:699px) and (min-width: 432px) {
+@media (max-width: 431px) {
     body {
         box-sizing: border-box;
         margin: 0;
+        flex-direction: column;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100vw;
+    }
+    
+    .progresso {
+        width: 100vw;
     }
 
     .nav>.nav-btn {
@@ -35,7 +48,7 @@
         left: 0px;
         border-radius: 1%;
         text-align: center;
-        font-size: 28px;
+        font-size: 1.5em;
     }
 
     .nav>.nav-links>a {
@@ -48,7 +61,7 @@
     }
 
     .nav>#nav-check:checked~.nav-links {
-        height: calc(30vh - 50px);
+        height: calc(30vh - 0px);
         overflow-y: auto;
     }
 
@@ -56,29 +69,36 @@
         margin-top: 0.3em;
     }
 
-    article {
-        margin-left: 2em;
-        margin-right: 2em;
-        font-size: 1.6em;
+    #logonav {
+        width: 90px;
+        margin-left: -5em;
     }
 
-    #coracao {
-        margin-top: 27em;
+    #titulo {
+        text-align: center;
     }
 
     #parte1 {
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
     }
 
-    #oquee {
-        margin-top: 5em;
+    #texto1 {
+        margin-right: 0;
     }
 
-    #texto1 {
-        margin: 0;
-        margin-top: 1em;
+    article {
+        margin-left: 2.1em;
+        margin-right: 2.1em;
+    }
+
+    #img1 {
+        width: 18em;
+        height: 18em;
+    }
+
+    #impressoratitulo {
+        text-align: center;
     }
 
     #containertexto {
@@ -86,71 +106,61 @@
         flex-direction: column;
     }
 
-    #containertexto1 {
-        width: 100%;
+    #vantagem1 {
+        margin-right: -9em;
     }
 
-    #containertexto2 {
-        width: 100%;
+    .espacamentotexto {
+        margin-right: -9em;
     }
 
     #desvantagens {
-        margin-top: 55em;
+        margin-top: 50em;
     }
 
-    #imagemetexto1 {
-        display: flex;
-        flex-direction: column;
+    .numerospan {
+        display: none;
     }
 
-    #imagemetexto2 {
-        display: flex;
-        flex-direction: column;
+    .titulospan {
+        margin: 0;
     }
 
+    #imagemetexto1,
+    #imagemetexto2,
     #imagemetexto3 {
         display: flex;
         flex-direction: column;
     }
 
-    .texto {
-        margin: 0;
-    }
-
+    .texto,
     #texto {
         margin: 0;
     }
 
-    .imagem {
-        margin: 0;
+    #imagem2 {
+        display: none;
     }
 
     #imgrespiro {
-        margin-top: 85em;
+        margin-top: 65em;
     }
 
     #respiro {
-        height: 22em;
+        height: 20em;
     }
 
     #aplicacao {
-        margin-top: -25em;
-        display: flex;
-        flex-direction: column;
+        margin-top: -15em;
     }
 
-
-    #logonav {
-        margin-top: -1.5em;
-        width: 120px;
-    }
-
-    .textoaplicacao {
-        width: 100%;
+    #textointro {
+        font-size: 1.3em;
     }
 
     .textoeimagemaplicacao {
-        margin: 0;
+        margin-left: -7em;
+        margin-right: -7em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -163,112 +173,109 @@
         display: flex;
     }
 
-    #titulocoracao {
-        text-align: center;
-    }
-
-    #imagem2 {
-        display: none;
-    }
-
     #img2 {
         display: none;
     }
 
-    #outro {
+    #titulocoracao {
         text-align: left;
     }
 
-    #materiaiscontainer {
-        display: flex;
-        flex-direction: column;
-    }
 
-    #introducaomateriais {
-        margin: 0;
+    #materiais {
+        text-align: left;
     }
 
     #citacao {
-        margin: 0;
-        padding: 1em;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
     }
 
     #imgpolimeros {
-        height: 12em;
+        height: 10em;
+    }
+
+    #texto1pol, #texto2pol {
+        margin-right: 2em;
+    }
+
+    #imagempolimeros {
+        width: 10em;
+        margin-left: -1.5em;
     }
 
     #polimeros {
         display: flex;
         flex-direction: column;
-    }
-
-    .imagemetextopolimeros {
-        width: 100%;
-        margin-top: 5em;
+        margin-right: -25em;
+        gap: 2em;
     }
 
     #imghidrogeis {
-        height: 12em;
+        height: 10em;
     }
 
     #hidrogel {
         display: flex;
         flex-direction: column;
+        margin-right: -25em;
+        gap: 2em;
     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 15em;
-        margin-left: 0.9em;
+    #hidrogeis {
+        text-align: left;
+    }
+
+    .queijo {
+        margin-right: 2em;
+    }
+
+    #textosdev {
+        margin-right: 1.5em;
+    }
+
+    #sobrenos > h2 {
+        font-size: 1.8em;
     }
 
     .linha {
         display: flex;
         flex-direction: column;
-        padding-bottom: 2em;
     }
 
+    .container {
+        margin-top: 6em;
+    }
+    
     .container2 {
         display: flex;
         flex-direction: column;
-        margin-top: 15em;
-        margin-left: 0.9em;
-        margin-top: 29.3em;
+        margin-top: 6em;
+    }
+    .fotos{
+        width: 9em;
     }
 
-    .perfil {
-        width: 384px;
-        height: 384px;
-        margin-top: 5em;
-    }
-
-    .nome {
+    .perfil .nome {
         background-color: #1755a5;
         color: #fff;
         font-family: "Poppins";
-        padding: 25px 15px;
-        font-size: 1em;
+        transform: translate(-50%, -50px);
+        font-size: 15px;
+        opacity: 0;
+        transition: 0.3s;
+        margin-left: 0.23em;    
     }
 
     #tudo {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-    }
-
-    #input {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        margin-bottom: 3em;
+        margin-left: 7em;
     }
 
     #newslerner {
         text-align: center;
-        font-size: 3em;
+        font-size: 2em;
         margin-top: 2em;
         padding: 0;
         margin-bottom: 0.5em;
@@ -282,24 +289,25 @@
     }
 
     #jonas {
-        font-size: 1.5em;
+        font-size: 1em;
         margin-right: 0.8em;
     }
 
     button {
         background-color: rgb(74, 211, 74);
-        font-size: 1.5em;
+        font-size: 1.1em;
         color: white;
     }
 
     footer {
         background: rgb(0, 110, 183);
         background: linear-gradient(0deg, rgba(0, 110, 183, 1) 0%, rgba(0, 135, 225, 1) 50%, rgba(0, 153, 255, 1) 100%);
-        height: 70vh;
+        height: 90vh;
+
     }
 
     #onda {
-        margin-top: 25em;
+        margin-top: -23em;
     }
 
     #logofooter {
@@ -308,30 +316,42 @@
 
     #imgfooter {
         margin-bottom: 1em;
+        margin-top: 5em;
+        margin-left: 10em;
         width: 10em;
     }
 
     #logoif {
         width: 15em;
+        margin-left: 10em;
     }
 
     #midiassociais {
-        font-size: 3em;
+        font-size: 2em;
+        margin-left: -1.5em;
     }
 
     #sociais {
         width: 60%;
+        margin-top: 2em;
     }
 
     #email {
         width: 5em;
         height: 5em;
         background-color: rgb(74, 211, 74);
+        margin-left: -3em;
+        margin-top: 1em;
     }
 
     #simbolo {
         margin-top: 0.1em;
-        font-size: 3em;
+        font-size: 2em;
     }
 
+    #midias {
+        font-size: 1.5em;
+
+
+    }
 }
