@@ -1,27 +1,31 @@
-from flask import Flask, render_template, request, redirect, url_for
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, app, render_template, request
+import pymysql
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:@127.0.0.1:3306/banco_de_pi"
-db = SQLAlchemy()
-db.init_app(app)
-class Subscriber(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    
-@app.route('/')
+conexao = pymysql.connect(
+    host="localhost",
+    user="root",
+    password="",
+    db="emails"
+)
+cursor = conexao.cursor()
+
+@app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
 
-@app.route('/subscribe', methods=['POST'])
-def subscribe():
+@app.route('/enviaremail', methods=['POST'])
+def enviaremail():
+    
     email = request.form['email']
-    if email:
-        subscriber = Subscriber(email=email)
-        db.session.add(subscriber)
-        db.session.commit()
-    return redirect(url_for('index'))
+    try:
+        cursor.execute("INSERT INTO email (email) VALUES (%s)", (email,))
+        conexao.commit()
+        
+        return render_template('sucess.html', email=email)
+    except pymysql.Error as e:
+        conexao.rollback()
+        return f"Erro ao inscrever: {str(e)}"
 
-if __name__ == '__main__':
-    db.create_all()
+if __name__ == 'main':
     app.run(debug=True)
