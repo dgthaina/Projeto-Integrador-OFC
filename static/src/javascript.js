@@ -1,4 +1,5 @@
-window.onscroll = function () { myFunction() };
+// window.onscroll = function () { myFunction() };
+
 
 function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -7,6 +8,7 @@ function myFunction() {
     document.getElementById("barra").style.width = scrolled + "%";
 };
 
+window.addEventListener("scroll", myFunction);
 
 // navbar colorida
 window.addEventListener("scroll", () => {
@@ -18,6 +20,8 @@ window.addEventListener("scroll", () => {
     }
 });
 
+
+//revelar
 var t = window.scrollY;
 
 window.onscroll = () => {

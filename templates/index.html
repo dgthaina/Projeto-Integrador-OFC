@@ -7,18 +7,15 @@
     <title>A impressão que impressiona</title>
     <link rel="shortcut icon" href="{{ url_for('static',filename='img/imguia.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/estilo.css') }}">
-
-    <link rel="stylesheet" href="../static/css/mediaiphone14promax.css">
-    <!-- <link rel="stylesheet" href="css/media412.css"> -->
-    <link rel="stylesheet" href="static/css/media600.css">
-    <link rel="stylesheet" href="{{ url_for('static',filename='../../static/css/media720.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static',filename='css/estilo.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/media600.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/media720.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/media850.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/media930.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/media980.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/media1027.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/media1080.css') }}">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mediaiphone14promax.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script type="text/javascript" src="{{ url_for('static',filename='src/javascript.js') }}"></script>
 </head>
 
@@ -75,7 +72,7 @@
                     pré-cirúrgicos, bem como imprimir medicamentos com maior concentração e com tamanhos menores. Por
                     outro lado, o desenvolvimento de órgãos complexos ainda se encontra em processo de estudos e testes,
                     sendo um dos maiores desafios que essa tecnologia enfrenta na atualidade. </p>
-                <img id="img1" src="{{ url_for('static',filename='img/oquee.png') }}" alt="">
+                <img id="img1" src="{{ url_for('static',filename='img/oquee.jpg') }}" alt="">
             </div>
         </article>
 
@@ -375,7 +372,7 @@
             </div>
 
             <h2>1 - Polímeros</h2>
-            <img src="img/polimeros.jpg" alt="" id="imgpolimeros">
+            <img src="{{ url_for('static',filename='img/polimeros.jpg') }}" alt="" id="imgpolimeros">
             <div id="polimeros">
                 <div class="imagemetextopolimeros">
                     <div id="texto1pol">
@@ -562,7 +559,7 @@
                 <h5 id="midiassociais">Mídias Sociais</h5>
                 <div id="icon">
                     <div id="email">
-                        <a href="mailto:thainadagostini61@gmail.com" id="midias"><span class="material-symbols-outlined"
+                        <a href="mailto:impressaoqueimpressiona@gmail.com" id="midias"><span class="material-symbols-outlined"
                                 id="simbolo">
                                 mail
                             </span></a>
