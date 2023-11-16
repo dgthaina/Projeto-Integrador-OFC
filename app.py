@@ -7,13 +7,13 @@ import pymysql
 app = Flask(__name__)
 app.secret_key = "af4e09990e02357d7410f1b683cc127a6fc69ad49eb9da62"  # Substitua pela sua chave secreta segura
 
-# conexao = pymysql.connect(
-#     host="localhost",
-#     user="root",
-#     password="",
-#     db="emails"
-# )
-# cursor = conexao.cursor()
+conexao = pymysql.connect(
+    host="localhost",
+    user="root",
+    password="",
+    db="emails"
+)
+cursor = conexao.cursor()
 
 #variaveis de ambiente para o envio do email
 login = "impressaoqueimpressiona@gmail.com"
