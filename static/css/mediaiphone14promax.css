@@ -5,10 +5,6 @@
         flex-direction: column;
     }
 
-    html {
-        overflow-x: hidden;
-    }
-
     nav {
         width: 100vw;
     }
@@ -230,12 +226,16 @@
         margin-right: 2em;
     }
 
-    #textosdev {
-        margin-right: 1.5em;
+    #sobrenos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #sobrenos > h2 {
         font-size: 1.8em;
+        align-self: baseline;
     }
 
     .linha {
@@ -245,22 +245,31 @@
 
     .container {
         margin-top: 6em;
+        margin-left: 0;
     }
     
     .container2 {
         display: flex;
         flex-direction: column;
-        margin-top: 6em;
+        margin-top: 11em;
+        margin-left: 0;
     }
     .fotos{
         width: 9em;
+    }
+
+    .perfil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .perfil .nome {
         background-color: #1755a5;
         color: #fff;
         font-family: "Poppins";
-        transform: translate(-50%, -50px);
+        transform: none !important;
         font-size: 15px;
         opacity: 0;
         transition: 0.3s;
@@ -351,7 +360,5 @@
 
     #midias {
         font-size: 1.5em;
-
-
     }
 }
