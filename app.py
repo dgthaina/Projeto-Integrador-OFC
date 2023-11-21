@@ -42,19 +42,19 @@ def enviaremail():
 
         # Corpo do e-mail em HTML com a imagem incorporada
         html = f"""
-            <html>
-                <body>
-                    <div>
-                        <p>
-                            Uso da impressão 3D aliada à realidade virtual permite o desenvolvimento do primeiro simulador de cirurgia craniana, em São Paulo.
-                        </p>
-                        <img src='cid:anewslerner' alt='newslerner'>
-                        <p>
-                            O Hospital das Clínicas da USP desenvolveu o primeiro simulador de cirurgia craniana, que alia o uso de um protótipo produzido por uma impressora 3D com tecnologia da realidade virtual. Inicialmente, um modelo de cérebro 3D foi impresso com resina, silicone e borracha, e em seguida, foi complementado com detalhes anatômicos produzidos a partir da realidade virtual, como pele e veias. A produção do protótipo se mostra um avanço na medicina, visto que permitiu que um estudo pré-cirúrgico fosse realizado pela equipe médica, evitando que erros ocorressem no procedimento feito no paciente humano. Ainda, tal tecnologia permitiu a substituição do uso de cadáveres reais para estudo, sendo uma alternativa promissora para hospitais e clínicas. Para receber mais informações sobre a impressão 3D na medicina, basta acessar o site www.impressaoqueimpressiona.com.br
-                        </p>
-                    </div>
-                </body>
-            </html>
+<html>
+<body style="width: 100%">
+
+    <div style=" display: flex; justify-content: space-around; align-items: center; height: 40vh; margin-inline: 2em; ">
+        <div style="height: 90%; width: 0.5%; background-color: aqua; border-radius: 20px;"></div>
+        <h1 style="width: 40%; font-family: 'Hammersmith One', sans-serif; margin-left: 2em; color: black;">Uso da impressão 3D aliada à realidade virtual permite o desenvolvimento do primeiro simulador de cirurgia craniana, em São Paulo.</h1>
+        <img src='cid:anewslerner' alt="" style="width: 35%; height: 100%; border-radius: 20px; margin-left:1em">
+    </div>
+    <div id="txt" style=" width: 100%; display: flex;justify-content: center; align-items: center; text-align: justify;">
+        <p style="width: 90%; line-height: 1.5em; font-family: 'Hammersmith One', sans-serif; color:black ">O Hospital das Clínicas da USP desenvolveu o primeiro simulador de cirurgia craniana, que alia o uso de um protótipo produzido por uma impressora 3D com tecnologia da realidade virtual. Inicialmente, um modelo de cérebro 3D foi impresso com resina, silicone e borracha, e em seguida, foi complementado com detalhes anatômicos produzidos a partir da realidade virtual, como pele e veias. A produção do protótipo se mostra um avanço na medicina, visto que permitiu que um estudo pré-cirúrgico fosse realizado pela equipe médica, evitando que erros ocorressem no procedimento feito no paciente humano. Ainda, tal tecnologia permitiu a substituição do uso de cadáveres reais para estudo, sendo uma alternativa promissora para hospitais e clínicas. Para receber mais informações sobre a impressão 3D na medicina, basta acessar o site <a href="">www.impressaoqueimpressiona.com.br</a> </p>
+    </div>
+</body>
+</html>
         """
 
         # Adiciona o corpo do e-mail ao objeto MIMEMultipart
